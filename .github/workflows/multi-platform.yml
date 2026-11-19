@@ -3,7 +3,8 @@
 # Push the project to a GitHub repo -> Actions tab -> "Build Geode Mod" ->
 # the finished .geode is under "Artifacts" (Build Output).
 name: Build Geode Mod
-
+on:
+  workflow_dispatch:
 on:
   workflow_dispatch:
   push:
